@@ -39,7 +39,7 @@ while m != n:
         v = 0
         if len(temp) != 0:
             for i in range(len(temp)):
-                if str(y) == temp[i][1] or str(x) == temp[i][0]:
+                if str(y) == temp[i][1] or str(x) == temp[i][0]:  
                     v += 1
         if v == 0:
             temp.append(str(x) + str(y))
